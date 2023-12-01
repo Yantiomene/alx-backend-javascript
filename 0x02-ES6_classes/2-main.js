@@ -5,6 +5,15 @@ console.log(c1.name);
 c1.name = "Python 101";
 console.log(c1);
 
+const course = new HolbertonCourse("PHP", 20, ["Lucie", "Guillaume"]);
+course.name = "PHP2";
+course.length = 10;
+course.students = ["Thomas"];
+
+console.log(course.name);
+console.log(course.length);
+console.log(course.students);
+
 try {
     c1.name = 12;
 } 

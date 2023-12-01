@@ -23,7 +23,7 @@ export default class HolbertonCourse {
 
   set length(val) {
     if (!Number.isInteger(val)) throw new TypeError('Length must be a number');
-    this._lenght = val;
+    this._length = val;
   }
 
   get students() {
