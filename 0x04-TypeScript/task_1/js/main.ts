@@ -7,13 +7,19 @@ interface Teacher {
     [key: string]: any; // Allow any additional attribute with any name and type
 }
 
-//const teacher3: Teacher = {
+interface Directors extends Teacher {
+    numberOfReports: number;
+}
+  
+// Example usage:
+//const director1: Directors = {
 //    firstName: 'John',
-//    fullTimeEmployee: false,
 //    lastName: 'Doe',
 //    location: 'London',
-//    contract: false,
-//  };
+//    fullTimeEmployee: true,
+//    numberOfReports: 17,
+//};
+//console.log(director1);
   
-//  console.log(teacher3);
+  
   
