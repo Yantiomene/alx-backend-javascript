@@ -31,7 +31,7 @@ function countStudents (filePath) {
       }
     }
   } catch (error) {
-    throw Error('cannot load the database');
+    throw Error('Cannot load the database');
   }
 }
 
