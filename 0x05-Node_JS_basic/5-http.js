@@ -66,4 +66,4 @@ const app = http.createServer((request, result) => {
 app.listen(PORT, HOST, () => {
 });
 
-module.exports = countStudents;
+module.exports = app;
