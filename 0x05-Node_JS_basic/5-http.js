@@ -4,7 +4,7 @@ const http = require('http');
 const HOST = '127.0.0.1';
 const PORT = 1245;
 
-function countStudents (filePath) {
+function countStudents(filePath) {
   let numStud = 0;
   const students = {};
   const fields = {};

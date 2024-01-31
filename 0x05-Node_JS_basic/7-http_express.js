@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const PORT = 1245;
 
-function countStudents (filePath) {
+function countStudents(filePath) {
   let numStud = 0;
   const students = {};
   const fields = {};

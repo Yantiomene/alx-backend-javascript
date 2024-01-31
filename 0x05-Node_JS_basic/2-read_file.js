@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function countStudents (filePath) {
+function countStudents(filePath) {
   let numStud = 0;
   const students = {};
   const fields = {};
