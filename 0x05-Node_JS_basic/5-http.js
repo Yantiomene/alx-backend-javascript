@@ -44,7 +44,8 @@ function countStudents(filePath) {
   });
 }
 
-const app = http.createServer((request, result) => {
+const app = http.createServer((request, _result) => {
+  const result = _result;
   result.statusCode = 200;
   result.setHeader('Content-Type', 'text/plain');
   if (request.url === '/') {
