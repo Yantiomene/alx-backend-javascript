@@ -52,7 +52,7 @@ app.get('/students', (req, res) => {
     const result = `This is the list of our students\n${output}`;
     res.send(result.slice(0, -1));
   }).catch(() => {
-    res.send('Cannot load the database');
+    res.send('This is the list of our students\nCannot load the database');
   });
 });
 
