@@ -1,7 +1,0 @@
-const Utils = require('./utils.js');
-
-function sendPaymentRequestToApi (totalAmount, totalShipping) {
-  console.log(`The total is: ${Utils.claculateNumber('SUM', totalAmount, totalShipping)}`);
-}
-
-module.exports = sendPaymentRequestToApi;
