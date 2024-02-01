@@ -1,0 +1,16 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "At the end of this project, we are expected to know:",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '*.test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  }
+}
